@@ -1,0 +1,16 @@
+### GET Users
+GET https://jsonplaceholder.typicode.com/users
+Content-Type: application/json
+
+
+####
+PUT https://jsonplaceholder.typicode.com/users/1 
+Content-Type: application/json
+
+{
+  "name": "Updated User",
+  "email": "updateduser@example.com"
+}
+###
+DELETE https://jsonplaceholder.typicode.com/users/1
+Content-Type: application/json

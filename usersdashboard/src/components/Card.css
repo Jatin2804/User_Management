@@ -1,0 +1,22 @@
+#card{
+    color: #01579B;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   background-color: white;
+    
+}
+
+#image-area{
+    background-image: url("../../public/user.png");
+    border-radius: 10px;
+    background-color: #01579B;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+}

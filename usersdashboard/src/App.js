@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import CardsSection from "../../usersdashboard/src/components/CardsSection";
+import CardsSection from "./components/CardsSection";
 import axios from "axios";
-import Header from "../../usersdashboard/src/components/Header";
+import Header from "./components/Header";
 import { SnackbarProvider, useSnackbar } from 'notistack'
 
 function App() {
